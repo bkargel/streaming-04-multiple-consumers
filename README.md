@@ -35,6 +35,8 @@ Explore the RabbitMQ website.
 
 Will it terminate on its own? How do you know? 
 
+No. It will not terminate on it's own. The process remains open and CTRL + C is required to end it.
+
 ## Ready for Work
 
 1. Use your emitter_of_tasks to produce more task messages.
@@ -60,3 +62,7 @@ Which worker gets which tasks?
 See a running example with at least 3 concurrent process windows here:
 
 ![Alt text](https://github.com/bkargel/streaming-04-multiple-consumers/blob/main/three_terminals.png?raw=true "Running on three terminals")
+
+## NOTES
+
+It is always easier to change the name of a queue or change a message when it is contained within a variable. That way, you can just change the variable one time and it flows through the entire scipt, no matter how many times it is used within the code. 
