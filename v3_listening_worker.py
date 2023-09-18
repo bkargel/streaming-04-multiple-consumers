@@ -91,7 +91,7 @@ def main(hn: str = "localhost", qn: str = "task_queue"):
         logger.info(" User interrupted continuous listening process.")
         sys.exit(0)
     finally:
-        print("\nClosing connection. Goodbye.\n")
+        logger.info("\nClosing connection. Goodbye.\n")
         connection.close()
 
 

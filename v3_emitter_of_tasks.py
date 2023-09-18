@@ -23,7 +23,7 @@ HOST = "localhost"
 PORT = 9999
 ADDRESS_TUPLE = (HOST, PORT)
 INPUT_FILE_NAME = "tasks.csv"
-show_offer = False 
+show_offer = False
 
 # Only opens the Admin website if show_offer = True
 def offer_rabbitmq_admin_site():
