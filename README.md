@@ -58,3 +58,5 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+
+![Alt text](https://github.com/bkargel/streaming-04-multiple-consumers/blob/main/three_terminals.png?raw=true "Running on three terminals")
