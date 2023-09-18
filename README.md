@@ -19,7 +19,7 @@ One process will create task messages. Multiple worker processes will share the 
 
 ## RabbitMQ Admin 
 
-RabbitMQ comes with an admin panel. When you run the task emitter, reply y to open it. 
+Change show_offer to True in order to open the admin panel. When show_offer is false, the admin page will not open.
 
 (Python makes it easy to open a web page - see the code to learn how.)
 
